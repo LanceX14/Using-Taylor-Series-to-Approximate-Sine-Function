@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Project</title>
+    <link rel="stylesheet" href="midterm_css.css"> </head>
+    <script type="text/javascript" src="graph_js.js"> </script> 
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+
+</head>
+<body>
+    <div> 
+        <p style="display:inline">From Angel:</p>
+        <input type="text" style="display:inline" id="from_angle">
+    </div> 
+    <br>
+    <div> 
+        <p style="display:inline">To Angel:</p>
+        <input type="text" style="display:inline" id="to_angle">
+    </div> 
+    <br>
+    <div>
+        <p style="display:inline">Number of Terms:</p>
+        <input type="text" style="display:inline" id="number_of_terms">
+    </div>
+    <br>
+    <input type="button" id="compute" value="Compute Sine" >
+    <input type="button" id="clean" value="Refresh the Page" disabled="true">
+    <div id="the_plot"></div>
+    <p id="hints">Hints: </p>
+    <div id="hint_button" style="display: inline-block;">    
+        <input type="button" id="see_the_hints" value="click to see">
+    </div>
+</body>
+</html>
